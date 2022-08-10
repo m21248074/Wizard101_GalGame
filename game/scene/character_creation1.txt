@@ -1,0 +1,18 @@
+bgm:WizardCity_Menu.mp3;
+changeBg:Headmaster's Tower_1.jpg -next;
+梅林校長(Headmaster Ambrose):啊哈！ 咒語起作用了！(A-ha! The Spell is working!);
+梅林校長(Headmaster Ambrose):看，嘎美！ 終於，我們找到了！(Look, Gamma! Finally, we have found one!);
+嘎美(Gamma): 找到誰？！(Whoooo?!);
+梅林校長(Headmaster Ambrose): 一個年輕的魔法師！ 一個潛力驚人的學生……或許，足以拯救魔法之城！(A Young Wizard! A student with amazing potential... enough, perhaps, to save Wizard City!);
+嘎美(Gamma): 哦~真的嗎？(Oh really?);
+嘎美(Gamma):在哪裡？(Where?);
+梅林校長(Headmaster Ambrose): 一個非常非常遙遠的地方……我的天哪！ 在一個甚至不相信魔法的世界上！(A very, very distant realm... My goodness! On a world that does not even believe in magic!);
+梅林校長(Headmaster Ambrose):我想知道他/她是一個什麼樣的魔法師。(I wonder what manner of Wizard they might become.);
+changeBg:Headmaster's Tower_2.jpg -next;
+changeFigure:none -next;
+changeFigure:none -left -next;
+梅林校長(Headmaster Ambrose):或許我們應該詢問秘密之書...(Perhaps we should consult the Book of Secret…);
+
+intro:梅林校長轉身專心地看著你。|(Headmaster Ambrose turns to regard you intently.);
+
+changeScene:test.txt;

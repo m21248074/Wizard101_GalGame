@@ -1,0 +1,109 @@
+梅林校長(Headmaster Ambrose):回答這些問題來找出你是什麼類型的魔法師吧...(Answer these question to find out what type of Wizard you are…);
+
+choose:體驗入學測試(Test):None|跳過測試(Skip the test):test_skip;
+
+秘密之書(Book of Secret):什麼對你來說更重要？(What is more important to you?);
+choose:炫耀我的技能(Show off my skills):None|成為勝利團隊的一部分(Be part of a winning team):None;
+
+秘密之書(Book of Secret):你認為，其中哪一個是最強大的？(Which of these is the most powerful?);
+choose:颶風(Hurricane):None|暴風雪(Blizzard):None|火山爆發(Volcano):None|龍捲風(Tornado):None|地震(Earthquake):None|沙塵暴(Sandstorm):None|瘟疫(Plague):None;
+
+秘密之書(Book of Secret):你一天中最喜歡的時間是什麼時候？(What’s your favorite time of day?);
+choose:早上(Morning):None|下午(Afternoon):None|晚上(Night):None;
+
+秘密之書(Book of Secret):哪一個描述最符合你？(Which best describes you?);
+choose:我又快速又強壯(I am fast and athletic):None|我是一個很好的傾聽者和朋友(I am a great listener and friend):None|我很聰明，並且我學習很努力(I am smart and I study hard):None|我非常有創意(I am extremely creative):None|我很誠實與勤奮(I am honest and hardworking):None|我很全能(I am very well-rounded):None;
+
+秘密之書(Book of Secret):什麼對你來說更重要？(What is more important to you?);
+choose:與他人競爭(Competing against others):None|與他人合作(Cooperating with others):None;
+
+秘密之書(Book of Secret):你最喜歡的動物是什麼？(What is your favorite animal?);
+choose:獨角獸(Unicorn):None|螃蟹(Crab):None|龍(Dragon):None|鯊魚(Shark):None|蛇(Serpent):None|蝙蝠(Bat):None|北極熊(Polar Bear):None;
+
+秘密之書(Book of Secret):你認為，一個故事中最重要的是……(The most important thing in a story is…);
+choose:男主角或女主角(The hero or heroine):None|所有角色都很重要(All of the characters):None;
+
+秘密之書(Book of Secret):我最喜歡的活動是……(My favorite activity is…);
+choose:閱讀、玩遊戲(Reading, playing games):None|競技性的運動(Competitive sports):None|學習新知識(Learning something new):None|跟我的寵物玩(Playing with my pets):None|露營或釣魚(Camping or fishing):None|我無法決定(I can’t decide):None;
+
+秘密之書(Book of Secret):我在學校最喜歡的課是……(My favorite class in school is…);
+choose:自然科學或數學(Science or Math):None|健康教育(Health):None|閱讀與寫作(Reading and Writing):None|運動(Sports):None|所有課程我都喜歡(I like all of my classes):None;
+
+秘密之書(Book of Secret):你最喜歡的季節是什麼？(What’s your favorite season?);
+choose:春天(Spring):None|夏天(Summer):None|秋天(Fall):None|冬天(Winter):None;
+
+秘密之書(Book of Secret):我傾向於……(I would rather be…);
+choose:勝利團隊的一員(Part of a winning team):None|一個團隊的領導者(The leader of a group):None;
+
+秘密之書(Book of Secret):當我參加競賽時，我的目標是贏得……(When I compete, My goal is to win…);
+choose:給自己的獎牌(A medal for myself):None|團隊的獎杯(A trophy for my team):None;
+
+秘密之書(Book of Secret):我喜歡花我的時間在……(I like to spend my time…);
+choose:自己身上(By myself):None|跟朋友相處(With my friends):None;
+
+秘密之書(Book of Secret):我傾向於……(I would rather…);
+choose:去派對(Go to a party):None|一個人待著(Stay by myself):None;
+
+秘密之書(Book of Secret):你最喜歡的寶石是什麼？(What’s your favorite gem?);
+choose:紅寶石(Ruby):fire_school|橄欖石(Peridot):myth_school|紫水晶(Amethyst):storm_school|黃水晶(Citrine):balance_school|縞瑪瑙(Onyx):death_school|玉(Jade):life_school|藍寶石(Sapphire):ice_school;
+
+label:test_skip;
+
+秘密之書(Book of Secret):選擇你的學校吧(Select your school.)
+choose:閃電學院(Storm):storm_school|神話學院(Myth):myth_school|生命學院(Life):life_school|寒霜學院(Ice):ice_school|炙焰學院(Fire):fire_school|闇黑學院(Death):death_school|平衡學院(Balance):balance_school;
+
+label:storm_school;
+
+秘密之書(Book of Secret):閃電魔法師，也被稱為占卜師，就像閃電一般，專注於快速且猛烈的攻擊。(Storm Wizards, also known as Diviners, aim to strike fast and hard - like lighting.);
+秘密之書(Book of Secret):雖然他/她們擅長快速造成大量的傷害，但是他/她們也非常脆弱，容易遭到敵人的攻擊。(While they excel at dishing out a tremendous amount of damage very quickly, they're also very fragile and susceptible to enemy attacks.);
+秘密之書(Book of Secret):因此，閃電魔法師經常專注於消滅敵人，同時被可以治療他/她們的其他學院的魔法師所支援。(As a result, Storm Wizards often focus on taking out opponents while being supported by other Wizards who can heal them.);
+jumpLabel:school_end;
+
+label:myth_school;
+
+秘密之書(Book of Secret):神話魔法師，也稱為魔術師，精通怪物之道。(Myth Wizards, also known as Conjurers, are well-versed in the ways of monsters.);
+秘密之書(Book of Secret):他/她們可以在戰鬥中召喚強大的幫手來幫助他/她們，並有大量的實用法術可以利用。(They can summon powerful minions to aid them in battle and have plenty of utility spells to take advantage of.);
+秘密之書(Book of Secret):神話巫師相當全能，可以在獨自或團隊的環境中成長。(Myth Wizards are well-rounded and can thrive in both solo and group environments.);
+jumpLabel:school_end;
+
+label:life_school;
+
+秘密之書(Book of Secret):生命魔法師，也被稱為神通術士，尋求與自然的和平共處。(Life Wizards, also known as Theurges, seek harmony with nature.);
+秘密之書(Book of Secret):他們的專長是治癒自己和他人。(Their specialty is healing themselves and others.);
+秘密之書(Book of Secret):他/她們在面對危險時提供幫助的能力和意願使他/她們成為團隊中重要的角色。(Their ability and willingness to help in the face of danger makes them an amazing asset on any team.);
+jumpLabel:school_end;
+
+label:ice_school;
+
+秘密之書(Book of Secret):寒霜魔法師，也被稱為奇術師，承受傷害的能力如同永恆凍土。(Ice Wizards, also known as Thaumaturges, endure like permafrost.);
+秘密之書(Book of Secret):他/她們具有出色的防禦能力，並且擅長抵禦敵人的攻擊。(They have excellent defenses and specialize in withstanding attacks from enemies.);
+秘密之書(Book of Secret):寒霜魔法師的傷害可能較微弱，但他/她們的高生存能力使他/她們能夠在沒有任何幫助的情況下自行成長。(Ice Wizards may have weaker damage, but their high survivability makes them well equipped to venture out on their own without any assistance.);
+jumpLabel:school_end;
+
+label:fire_school;
+
+秘密之書(Book of Secret):炙焰魔法師，也被稱為火焰術士，他/她們小心地煽動火焰的力量。(Fire Wizards, also known as Pyromancers, carefully fan the flames.);
+秘密之書(Book of Secret):他/她們的專長是利用持續傷害的法術將敵人緩慢燒成灰燼。(Their specialty is utilizing damage-over-time spells to slow-burn their enemies to cinders.);
+秘密之書(Book of Secret):炙焰魔法師非常強大，無論是在單人還是團體環境中都能成長。(Fire Wizards are incredibly powerful and thrive in both solo and group settings.);
+jumpLabel:school_end;
+
+label:death_school;
+
+秘密之書(Book of Secret):闇黑魔法師，也被稱為死靈術士，具有操縱不死生物的力量。(Death Wizards, also known as Necromancers, manipulate the power of the undead.);
+秘密之書(Book of Secret):他/她們擅長吸取血量，這是一種同時傷害對手並治療自己的法術。(They specialize in health drains - spells that damage their opponent and heal themselves at the same time.);
+秘密之書(Book of Secret):由於他/她們的吸取法術，闇黑魔法師在獨自冒險時很容易成長。(Because of their drain spells, Death Wizards can easily thrive when venturing off on their own.);
+jumpLabel:school_end;
+
+label:balance_school;
+
+秘密之書(Book of Secret):平衡魔法師，也被稱為巫師，在所有事物中尋求其對稱性。(Balance Wizards, also known as Sorcerers, seek symmetry in all things.);
+秘密之書(Book of Secret):因為他/她們涉足一切，所以他/她們擅長為所有學院的魔法師提供支援。(Because they dabble in a little bit of everything, they excel in support roles.);
+秘密之書(Book of Secret):平衡魔法師有能力強化其他學院的法術，這使他/她們成為團隊中重要的角色。(Balance Wizards have the ability to enhance other school spells, making them a powerful asset on any team.);
+jumpLabel:school_end;
+
+label:school_end;
+
+秘密之書(Book of Secret):確定要這個學院嗎?
+choose:再試一次(Try again):test.txt|確定(Ok):None;
+
+changeScene:character_creation2.txt;

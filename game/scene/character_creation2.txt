@@ -1,0 +1,16 @@
+changeBg:Headmaster's Tower_1.jpg -next;
+changeFigure:HeadmasterAmbrose.png -next;
+changeFigure:Gamma.png -left -next;
+梅林校長(Headmaster Ambrose):現在我們知道你是什麼學院了，那你長什麼樣子？(Now that we know what you are, what do you look like?);
+
+intro:你的長相逐漸清晰，校長的臉上充滿笑容。;
+
+嘎美(Gamma):請記住，如果你以後想改變自己的外表，只需去購物區的魔鏡店就可以了！(Remember, if ever you wish to alter your appearance in the future, simply pay a visit to the Magic Mirror Shop in the Shopping District!);
+
+梅林校長(Headmaster Ambrose):好的！ 你叫什麼名字？(All right then! What is your name?);
+
+intro:你告訴校長你的名字，校長看起來非常喜歡你。;
+
+系統:謝謝您的體驗! 目前劇情只到這裡，敬請期待!;
+
+end;

@@ -1,0 +1,5 @@
+Game_name:魔鬪學園101;
+Game_key:0f35dst;
+Title_img:Wizard101.webp;
+Title_bgm:WizardCity_Menu.mp3;
+Loading_img: Loading_img.jpg;

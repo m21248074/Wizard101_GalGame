@@ -1,0 +1,17 @@
+changeBg:none -next;
+intro:貼心小提示：|­|電腦使用者鍵盤按下F11可以全螢幕體驗。|選項中可以更改背景以及語音音量。|戴上耳機，體驗更佳！|若無法正常體驗請嘗試清除瀏覽紀錄。|若遇到 Bug 請至 GitHub 提出issue。|;
+intro:故事人物性格不代表真實人物性格|本故事完全虛構，如有雷同純屬巧合!|­|­|劇情內容出自原著Wizard101並中文翻譯|版權由KingsIsle Entertainment, Inc.所有||;
+intro:本作品僅為紀念作者之童年|未經允許禁止將本作品用於其他用途|­|­|謹此獻給所有熱愛魔鬪學園101的玩家 :)|;
+intro:特別鳴謝：|­|WebGAL引擎：MakinoharaShoko|劇情原型：Wizard101||;
+unlockBgm:WizardCity_Menu.mp3 -name=魔鬪學園101 選單音樂;
+unlockCg:Wizard101.webp -name=魔鬪學園101 Logo -series=1;
+
+playVideo:landing_page(new).mp4;
+unlockBgm:WizardCity_Title.mp3 -name=魔鬪學園101 標題音樂;
+
+setFigTransform:scale(0.5, 0.5) translate(-30%, 10%) -left;
+setFigTransform:translate(0, 15%) -center;
+changeFigure:HeadmasterAmbrose.png -next;
+changeFigure:Gamma.png -left -next;
+
+changeScene:character_creation1.txt;
